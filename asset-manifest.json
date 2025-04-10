@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/GD-Notes-web/static/css/main.e7618add.css",
+    "main.js": "/GD-Notes-web/static/js/main.e07edb97.js",
+    "static/js/453.b47c0ac7.chunk.js": "/GD-Notes-web/static/js/453.b47c0ac7.chunk.js",
+    "index.html": "/GD-Notes-web/index.html",
+    "main.e7618add.css.map": "/GD-Notes-web/static/css/main.e7618add.css.map",
+    "main.e07edb97.js.map": "/GD-Notes-web/static/js/main.e07edb97.js.map",
+    "453.b47c0ac7.chunk.js.map": "/GD-Notes-web/static/js/453.b47c0ac7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7618add.css",
+    "static/js/main.e07edb97.js"
+  ]
+}
