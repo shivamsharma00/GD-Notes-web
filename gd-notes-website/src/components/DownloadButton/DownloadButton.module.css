@@ -1,0 +1,35 @@
+/* src/components/DownloadButton/DownloadButton.module.css */
+.downloadItem {
+    display: block; /* Each link on its own line */
+    padding: 8px 0;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent card */
+    transition: transform 0.2s ease;
+  }
+  
+  a.downloadItem:hover {
+      transform: translateX(5px); /* Slight move on hover */
+  }
+  
+  .version {
+    font-size: 0.85em;
+    opacity: 0.8;
+    margin-left: 5px;
+  }
+  
+  .loading {
+    font-size: 0.85em;
+    opacity: 0.7;
+    margin-left: 5px;
+  }
+  
+  .error {
+    opacity: 0.6;
+    cursor: default;
+    pointer-events: none; /* Disable click on error */
+  }
+  
+  .error:hover {
+      transform: none; /* No hover effect for errors */
+  }

@@ -1,0 +1,26 @@
+/* src/components/Hero/Hero.module.css */
+.heroSection {
+    /* Gradient inspired by your image */
+    background: linear-gradient(135deg, #a8e0c0 40%, #82c1a8 100%);
+    color: white;
+    text-align: center;
+    padding: 100px 20px 80px 20px; /* Generous padding */
+    /* No position: sticky needed here, header is sticky */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px; /* Minimum height */
+  }
+  
+  .heroContent h1 { /* Motto */
+      font-size: 4em; /* Larger font */
+      margin-bottom: 5px;
+      font-weight: 600;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.2); /* Subtle shadow */
+  }
+  
+  .heroContent p { /* Simple as better */
+      font-size: 1.8em; /* Larger font */
+      opacity: 0.9;
+      font-weight: 300;
+  }

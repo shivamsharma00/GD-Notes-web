@@ -1,0 +1,49 @@
+/* src/components/Features/Features.module.css */
+
+/* Container for padding within the main content area */
+.featuresContainer {
+    padding-top: 40px; /* Space below hero */
+    padding-bottom: 60px;
+}
+
+.sectionTitle {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 60px; /* Space before theme examples */
+    margin-bottom: 30px;
+    color: #495057;
+}
+
+.featuresGrid {
+  display: grid;
+  /* Responsive grid: 3 columns on large, 2 on medium, 1 on small */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px; /* Increased gap */
+}
+
+/* Styles specific to the Download card content */
+.downloadLinks {
+    margin-bottom: 15px;
+}
+
+.releaseInfo {
+    font-size: 0.9em;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+/* Ensure cards in the grid take full height */
+.featuresGrid > div { /* Target FeatureCard divs */
+    height: 100%;
+}
+
+/* Media query for smaller screens if needed */
+@media (max-width: 768px) {
+    .featuresGrid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Adjust minmax for smaller screens */
+        gap: 20px;
+    }
+    .sectionTitle {
+        font-size: 1.8em;
+    }
+}
