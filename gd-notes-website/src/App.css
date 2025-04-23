@@ -1,0 +1,41 @@
+/ * src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.App {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --brand-accent : #FFB800;
+  --brand-primary: #2A2D8A;
+}
+
+html, body, #root {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding: 0 0.5rem;
+  }
+}

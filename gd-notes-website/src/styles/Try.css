@@ -1,0 +1,51 @@
+.try-page {
+    padding: 4rem 2rem;
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+  }
+  
+  .try-page h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .try-page p {
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  .try-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .try-card {
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 200px;
+    text-decoration: none;
+    color: #222;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .try-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+  
+  .try-card__icon {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-top: 3rem;
+    text-decoration: none;
+    color: #0077ff;
+    font-weight: 500;
+  }
