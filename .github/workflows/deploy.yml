@@ -34,3 +34,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./gd-notes-website/build
           publish_branch: gh-pages
+          cname: www.gd-notes.com
