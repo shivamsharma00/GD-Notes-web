@@ -1,0 +1,67 @@
+.tetris-section {
+    padding: 4rem 2rem;
+    background: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .tetris-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 1rem;
+  }
+  
+  .tetris-box__icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: white;
+  }
+  
+  .tetris-box:hover {
+    transform: translateY(-4px);
+  } 
+
+  .tetris-section {
+    padding: 4rem 2rem;
+    background: rgba(42, 45, 138, 0.05);           /* light tint of --brand-primary */
+    font-family: 'JetBrains Mono', monospace;      /* global font */
+    min-height: 100vh;
+  }
+  
+  .tetris-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 1rem;
+  }
+  
+  /* Base box styling */
+  .tetris-box {
+    background: var(--brand-primary);              /* primary color */
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+  }
+  
+  /* Alternate accent color for even boxes */
+  .tetris-box:nth-child(even) {
+    background: var(--brand-accent);
+  }
+  
+  .tetris-box:hover {
+    transform: translateY(-4px);
+  }
+  
+  /* Typography tweaks */
+  .tetris-box h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.25rem;
+  }
+  
+  .tetris-box p {
+    margin: 0;
+    font-size: 1rem;
+    color: rgba(255,255,255,0.9);
+  }

@@ -1,23 +1,28 @@
 // src/App.js
 import React from 'react';
-import Header from './components/Header/Header';
-import Hero from './components/Hero/Hero';
-import Features from './components/Features/Features';
-import './styles/global.css'; // Import global styles
+import { Routes, Route } from 'react-router-dom';
+
+import Navbar from './components/Navbar';
+import Hero    from './components/Hero';
+import TetrisGrid from './components/TetrisGrid';
+import Footer  from './components/Footer';
+import TryOS   from './pages/Try';     // new page
 
 function App() {
-  // No theme state needed anymore
-
   return (
-    <div className="App">
-      <Header /> {/* Header is always the same */}
-      <main>
-        <Hero />
-        {/* Features now includes Download and About sections */}
-        <Features />
-      </main>
-      {/* Optional: Add a Footer component here */}
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={
+          <>
+            <Hero />
+            <TetrisGrid />
+            <Footer />
+          </>
+        }/>
+        <Route path="/try" element={<TryOS />} />
+      </Routes>
+    </>
   );
 }
 
