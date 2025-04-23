@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import '../styles/Try.css';
 
 const osOptions = [
-  { name: 'Windows', icon: '🪟', link: '#' },
-  { name: 'macOS',   icon: '🍎', link: '#' },
+  { name: 'Windows', icon: '🪟', link: 'https://github.com/shivamsharma/GD-Notes/releases/latest/download/MyApp%20Setup.exe' },
+  { name: 'macOS',   icon: '🍎', link: 'https://github.com/shivamsharma/GD-Notes/releases/latest/download/MyApp.dmg' },
   // { name: 'Linux',   icon: '🐧', link: '#' },
 ];
 
