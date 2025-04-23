@@ -5,7 +5,7 @@ import '../styles/Try.css';
 const osOptions = [
   { name: 'Windows', icon: '🪟', link: '#' },
   { name: 'macOS',   icon: '🍎', link: '#' },
-  { name: 'Linux',   icon: '🐧', link: '#' },
+  // { name: 'Linux',   icon: '🐧', link: '#' },
 ];
 
 const Try = () => (
@@ -18,7 +18,7 @@ const Try = () => (
         <a key={o.name} href={o.link} className="try-card">
           <div className="try-card__icon">{o.icon}</div>
           <h3>{o.name}</h3>
-          <p>Download the {o.name} installer (placeholder).</p>
+          <p>Download the {o.name} installer.</p>
         </a>
       ))}
     </div>
