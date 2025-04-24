@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../styles/Try.css';
 
 const osOptions = [
-  { name: 'Windows', icon: '🪟', link: 'https://github.com/shivamsharma/GD-Notes/releases/latest/download/MyApp%20Setup.exe' },
+  { name: 'Windows', icon: '🪟', link: 'https://github.com/shivamsharma00/GD-Notes/releases/download/latest/GD-Notes.1.0.0.exe' },
   { name: 'macOS',   icon: '🍎', link: 'https://github.com/shivamsharma00/GD-Notes/releases/download/latest/GD-Notes-1.0.0-arm64.dmg ' },
   // { name: 'Linux',   icon: '🐧', link: '#' },
 ];
